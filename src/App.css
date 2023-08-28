@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.take-image-container{
+width: 314px;
+height: 365px;
+top: 18px;
+left: 18px;
+border-radius: 7px;
+border: 3px;
+background-color: hsl(0, 0%, 69%);
+display: flex;
+flex-direction: column;
+  align-items: flex-start; 
+  justify-content: space-between;
+  background-size: cover; 
+  background-position: center;
+}
+.container {
+  display: flex;
+  justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+}
+.container > * {
+  margin : 5px 0;
+}
+.take-image-input {
+  width: 253px;
+height: 48px;
+top: 409px;
+left: 49px;
+border-radius: 8px;
+background-color: #CFCFCF;
+border: none;
+font-family:  'Hobeaux', Arial, sans-serif;
+text-align: center;
+
+}
+.text-image-button{
+  width: Hug (158px);
+height: Fixed (63px);
+top: 478px;
+left: 96.5px;
+padding: 10px 40px 10px 40px;
+border-radius: 12px;
+border: 5px;
+gap: 10px;
+background-color: #A1A1A1;
+color: white;
+font-weight: bold;
+border: 2px solid white;
+box-shadow: 2px 2px 5px #a1a1a1;
+}
+.close-button{
+  margin-top: 10px;
+  margin-right: 10px;
+  align-self: flex-end;
+}
+.camera-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.video-element{
+  width: 314px;
+height: 365px;
+top: 18px;
+left: 18px;
+border-radius: 7px;
+border: 3px;
+display: flex;
+flex-direction: column;
+  align-items: flex-start; 
+  justify-content: space-between;
+}
+.home-container{
+  height: 100%;
+  width: 100%;
+  color: yellow;
+}
+
+
+.centeredScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mobileComponent {
+  width: 100%;
+  max-width: 375px;
+  background-color: yellow;
+  overflow: hidden;
+  position: relative;
+  height: 70%;
+  border-radius: 20px;
+}
+
+.navigation {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.imageSection {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 60px);
+  overflow: hidden;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlayImages {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.shopImage {
+  width: 172px;
+  height: 255px;
+  margin-right: 20px;
+}
+
+.overlayDiv {
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.image-one{
+  width: 230.611248px;
+  height: 296.04320727188957px;
+  z-index: 20;
+  background: rgb(152, 152, 152);
+  background: linear-gradient(180deg, rgba(152, 152, 152, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(160, 159, 159, 1) 100%);
+  transform: rotate(12deg) translate(49px, 17px);
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+
+}
+.image-one-passport{
+  height: 70;
+  width: 80px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  border: 1px solid skyblue;
+  margin: 30px 10px 30px 20px;
+}
+.passport-details {
+transform: translate(2px , 7px);
+}
+.overlayImage {
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  width: 260px;
+  height: 296.04320727188957px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
